@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/3ead099420.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="flex flex-col md:flex-row justify-between items-center px-6 md:px-20 py-4 gap-4 md:gap-0">
+    <div class="w-[100px]">
+      <img class="w-full h-[80px]" src="../public/assets/logo.png" alt="logo" />
+    </div>
+
+    <nav>
+      <ul class="flex w-flex-col md:flex-row justify-center items-center gap-2 md:gap-5 text-center text-xl">
+        <li>Today Special offer</li>
+        <li>Why FoodHut</li>
+        <li>Our Menu</li>
+        <li>Our popular food</li>
+      </ul>
+    </nav>
+
+    <div>
+      <button class="bg-[#F54748] text-white text-sm rounded-full p-2 w-[150px]">
+        Download app
+      </button>
+    </div>
+  </header>
+
+
+  <main class="mt-10 w-full  md:px-20 box-border">
+
+    <!-- ------------------------------------------- -->
+    <section class="w-full grid grid-cols-1 h-96 md:grid-cols-2">
+      <div class="flex p-10 flex-col gap-3">
+        <div class=" text-center rounded-full bg-[#F54748]/20 flex w-[130px] justify-center items-center gap-1 text-sm">
+          <img class="w-full mx-auto" src="../public/assets/tiny-heart.png" />
+          <span></span>
+        </div>
+
+        <h1 class="text-3xl text-left md:text-left md:text-5xl md:font-bold">
+          We're <span class="text-[#F54748]">Serious</span> For
+          <span class="text-[#F54748]">Food</span> &
+          <span class="text-[#FDC55E]">Delivery</span>
+        </h1>
+        <p>
+          Best cooks and best delivery guys all at your service. Hot tasty
+          food will reach you in 60 minutes
+        </p>
+
+        <div class="flex justify-center items-center gap-3 p-1 border w-[270px] rounded-full">
+          <i class="fa-solid fa-magnifying-glass ml-2"> </i>
+          <input type="text" class="outline-none ml-2" placeholder="Search food" />
+          <div class="bg-[#FDC55E] p-[2px] pt-2 flex justify-center items-center rounded-full text-center w-7 h-7">
+            <i class="fa-solid fa-magnifying-glass rounded-full w-6 h-6 text-center text-white"></i>
+          </div>
+        </div>
+
+        <div class="flex gap-3 justify-start items-center">
+          <button class="bg-[#F54748] mt-7 text-white text-sm rounded-full p-1 w-[150px]">
+            Download app
+          </button>
+          <div class="flex gap-3 items-center">
+            <button class="p-3 rounded-full bg-white shadow-md">
+              <i class="fa-solid fa-play text-[#F54748]"></i>
+            </button>
+            <span>What now</span>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="w-full h-96">
+        <img class="w-full h-full object-contain" src="../public/assets/hero-image.png" alt="hero image" />
+      </div>
+    </section>
+
+
+
+    <!-- special offer -->
+    <section class=" mt-[350px] md:mt-[50px]">
+
+      <section class="flex flex-col gap-[20px] items-center">
+        <h1 class="text-center text-4xl font-bold">Today <span class="text-[#F54748]">Special </span>Offer</h1>
+        <p class="text-center w-[290px] md:w-[800px] ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
+          accusantium. Maiores eveniet voluptates totam fuga facilis obcaecati iure id fugiat perferendis eius nemo
+          exercitationem odio repudiandae in maxime, harum adipisci.</p>
+      </section>
+
+      <section class="flex flex-wrap gap-20 justify-center mt-[100px] cards">
+        <!-- ------------------------------1--------------------- -->
+        <div
+          class="card flex flex-col justify-center-center w-[230px] bg-[url('../public/assets/bg-card.png')] rounded-b-[20px] bg-cover h-[400px] gap-1">
+          <img src="../public/assets/kebab.png" alt="">
+
+          <img class="w-[100px] h-[30px] mx-auto " src="../public/assets/compil-1.png" alt="">
+
+          <h3 class="text-center text-sm"><span class="text-[#F54748] font-bold">Kebab</span></h3>
+          <p class="text-center px-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <button class="bg-[#F54748] hover:bg-[#FDC55E] mx-auto mt-7 text-white text-sm rounded-full p-1 w-[110px]">
+            Order Now </button>
+        </div>
+        <!-- ------------------------------2--------------------- -->
+        <div
+          class="card flex flex-col justify-center-center w-[230px] bg-[url('../public/assets/bg-card.png')] rounded-b-[20px] bg-cover h-[400px] gap-1">
+          <img src="../public/assets/chicken_tikka.png" alt="">
+
+          <img class="w-[100px] h-[30px] mx-auto " src="../public/assets/compil-2.png" alt="">
+
+          <h3 class="text-center text-sm"><span class="text-[#F54748] font-bold">Chiken Tikka</span></h3>
+          <p class="text-center px-7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <button class="bg-[#F54748] hover:bg-[#FDC55E] mx-auto mt-7 text-white text-sm rounded-full p-1 w-[110px]">
+            Order Now </button>
+        </div>
+        <!-- ------------------------------3--------------------- -->
+        <div
+          class="card flex flex-col justify-center-center w-[230px] bg-[url('../public/assets/bg-card.png')] rounded-b-[20px] bg-cover h-[400px] gap-1 ">
+          <img src="../public/assets/desi.png" alt="">
+
+          <img class="w-[100px] h-[30px] mx-auto " src="../public/assets/compil-3.png" alt="">
+
+          <h3 class="text-center text-sm"><span class="text-[#F54748] font-bold">Desi Chowmein</span></h3>
+          <p class="text-center px-7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <button class="bg-[#F54748] hover:bg-[#FDC55E] mx-auto mt-7 text-white text-sm rounded-full p-1 w-[110px]">
+            Order Now </button>
+        </div>
+        <!-- ------------------------------4--------------------- -->
+        <div
+          class="card flex flex-col justify-center-center w-[230px] bg-[url('../public/assets/bg-card.png')]   rounded-b-[20px] bg-cover h-[400px] gap-1">
+          <img src="../public/assets/chiken-chargha.png" alt="">
+
+          <img class="w-[100px] h-[30px] mx-auto " src="../public/assets/compil-4.png" alt="">
+
+          <h3 class="text-center text-sm"><span class="text-[#F54748] font-bold">Kebab</span></h3>
+          <p class="text-center px-7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <button class="bg-[#F54748] hover:bg-[#FDC55E] mx-auto mt-7 text-white text-sm rounded-full p-1 w-[110px]">
+            Order Now </button>
+        </div>
+
+
+      </section>
+
+    </section>
+
+
+    <!-- multiple service section -->
+    <section class="w-full grid-cols-1 md:grid-cols-2 grid mt-20 mb-20 relative">
+      <div class="w-full object-fill  md:relative md:left-40">
+        <img class="w-full" src="../public/assets/chef_service.png" alt="a chef">
+      </div>
+      <div class="mt-25 mr-0 md:mr-[200px] ">
+        <h2 class="text-4xl font-bold text-center mb-5">We are <span class="text-[#F54748]">more</span> than <span
+            class="text-[#FDC55E]">multiple</span> service</h2>
+        <p class="p-10 md:p-0">This is a type of resturent which typically serves food and drink, in addition to light refreshments such as
+          baked goods or snacks. The term comes frome the rench word meaning food</p>
+
+        <ul class=" flex flex-col h-[180px] flex-wrap p-5 gap-[20px] mt-[20px]">
+          <li class="flex"> <img class="w-[26px] h-[26px]" src="../public/assets/online_oder.png" alt=""><span>Online
+              order</span></li>
+          <li class="flex"> <img class="w-[26px] h-[26px]" src="../public/assets/pre_reservation.png"
+              alt=""><span>Pre_Reservation</span></li>
+          <li class="flex"> <img class="w-[26px] h-[26px]" src="../public/assets/super_chef.png" alt=""><span>Super
+              Chef</span></li>
+          <li class="flex"> <img class="w-[26px] h-[26px]" src="../public/assets/24_7_service.png" alt=""><span>24/7
+              Service</span></li>
+          <li class="flex"> <img class="w-[26px] h-[26px]" src="../public/assets/organised_food_hut.png"
+              alt=""><span>Organised foodhut Place</span></li>
+          <li class="flex"> <img src="../public/assets/clean_kitchen.png" alt=""><span>Clean Kitchen</span></li>
+        </ul>
+        <button class="bg-[#F54748] hover:bg-[#FDC55E] mx-auto mt-7 text-white text-sm rounded-full p-1 w-[110px]">
+          About us </button>
+      </div>
+    </section>
+    <section class="grid grid-cols-1  items-center">
+
+      <h2 class="text-4xl font-bold text-center"><span class="text-[#F54748]">Menu</span> that <span
+          class="text-[#FDC55E]">always</span> make you fall in <span class="text-[#F54748]">love</span></h2>
+      <div class="flex flex-wrap justify-center mx-20">
+        <button class="bg-[#F54748] hover:bg-[#FDC55E] mx-auto mt-7 text-white text-sm rounded-full p-1 w-[110px]">
+          <span>Ramen</span> </button>
+        <button class="border hover:bg-[#FDC55E] mx-auto mt-7 text-grey text-sm rounded-full p-1 w-[110px]"> <span>Breakfast</span>
+        </button>
+        <button class="border hover:bg-[#FDC55E] mx-auto mt-7 text-grey text-sm rounded-full p-1 w-[110px]"> <span>Lunch</span>
+        </button>
+        <button class="border hover:bg-[#FDC55E] mx-auto mt-7 text-grey text-sm rounded-full p-1 w-[110px]"> <span>Dinner</span>
+        </button>
+        <button class="border hover:bg-[#FDC55E] mx-auto mt-7 text-grey text-sm rounded-full p-1 w-[110px]"> <span>Maxican</span>
+        </button>
+        <button class="border hover:bg-[#FDC55E] mx-auto mt-7 text-grey text-sm rounded-full p-1 w-[110px]"> <span>Italian</span>
+        </button>
+        <button class="border hover:bg-[#FDC55E] mx-auto mt-7 text-grey text-sm rounded-full p-1 w-[110px]"> <span>Dessert</span>
+        </button>
+        <button class="border hover:bg-[#FDC55E] mx-auto mt-7 text-grey text-sm rounded-full p-1 w-[110px]"> <span>Drinks</span>
+        </button>
+      </div>
+
+    </section>
+    <!--  -->
+    <section class=" mt-[100px]  md:mt-[50px] mx-auto">
+
+      <section class="flex flex-wrap gap-20 justify-center mt-[100px] cards">
+        <!-- ------------------------------1--------------------- -->
+        <div
+          class="card flex flex-col justify-center-center w-[230px] bg-[url('../public/assets/bg-card.png')] rounded-b-[20px] bg-cover h-[400px] gap-1">
+          <img src="../public/assets/kebab.png" alt="">
+
+          <img class="w-[100px] h-[30px] mx-auto " src="../public/assets/compil-1.png" alt="">
+
+          <h3 class="text-center text-sm"><span class="text-[#F54748] font-bold">Kebab</span></h3>
+          <p class="text-center px-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <button class="bg-[#F54748] hover:bg-[#FDC55E] mx-auto mt-7 text-white text-sm rounded-full p-1 w-[110px]">
+            Order Now </button>
+        </div>
+        <!-- ------------------------------2--------------------- -->
+        <div
+          class="card flex flex-col justify-center-center w-[230px] bg-[url('../public/assets/bg-card.png')] rounded-b-[20px] bg-cover h-[400px] gap-1">
+          <img src="../public/assets/chicken_tikka.png" alt="">
+
+          <img class="w-[100px] h-[30px] mx-auto " src="../public/assets/compil-2.png" alt="">
+
+          <h3 class="text-center text-sm"><span class="text-[#F54748] font-bold">Chiken Tikka</span></h3>
+          <p class="text-center px-7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <button class="bg-[#F54748] hover:bg-[#FDC55E] mx-auto mt-7 text-white text-sm rounded-full p-1 w-[110px]">
+            Order Now </button>
+        </div>
+        <!-- ------------------------------3--------------------- -->
+        <div
+          class="card flex flex-col justify-center-center w-[230px] bg-[url('../public/assets/bg-card.png')] rounded-b-[20px] bg-cover h-[400px] gap-1 ">
+          <img src="../public/assets/desi.png" alt="">
+
+          <img class="w-[100px] h-[30px] mx-auto " src="../public/assets/compil-3.png" alt="">
+
+          <h3 class="text-center text-sm"><span class="text-[#F54748] font-bold">Desi Chowmein</span></h3>
+          <p class="text-center px-7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <button class="bg-[#F54748] hover:bg-[#FDC55E] mx-auto mt-7 text-white text-sm rounded-full p-1 w-[110px]">
+            Order Now </button>
+        </div>
+        <!-- ------------------------------4--------------------- -->
+        <div
+          class="card flex flex-col justify-center-center w-[230px] bg-[url('../public/assets/bg-card.png')]   rounded-b-[20px] bg-cover h-[400px] gap-1">
+          <img src="../public/assets/chiken-chargha.png" alt="">
+
+          <img class="w-[100px] h-[30px] mx-auto " src="../public/assets/compil-4.png" alt="">
+
+          <h3 class="text-center text-sm"><span class="text-[#F54748] font-bold">Kebab</span></h3>
+          <p class="text-center px-7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <button class="bg-[#F54748] hover:bg-[#FDC55E] mx-auto mt-7 text-white text-sm rounded-full p-1 w-[110px]">
+            Order Now </button>
+        </div>
+        <!-- --------------------------- -->
+        <!-- ------------------------------1--------------------- -->
+        <div
+          class="card flex flex-col justify-center-center w-[230px] bg-[url('../public/assets/bg-card.png')] rounded-b-[20px] bg-cover h-[400px] gap-1">
+          <img src="../public/assets/kebab.png" alt="">
+
+          <img class="w-[100px] h-[30px] mx-auto " src="../public/assets/compil-1.png" alt="">
+
+          <h3 class="text-center text-sm"><span class="text-[#F54748] font-bold">Kebab</span></h3>
+          <p class="text-center px-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <button class="bg-[#F54748] hover:bg-[#FDC55E] mx-auto mt-7 text-white text-sm rounded-full p-1 w-[110px]">
+            Order Now </button>
+        </div>
+        <!-- ------------------------------2--------------------- -->
+        <div
+          class="card flex flex-col justify-center-center w-[230px] bg-[url('../public/assets/bg-card.png')] rounded-b-[20px] bg-cover h-[400px] gap-1">
+          <img src="../public/assets/chicken_tikka.png" alt="">
+
+          <img class="w-[100px] h-[30px] mx-auto " src="../public/assets/compil-2.png" alt="">
+
+          <h3 class="text-center text-sm"><span class="text-[#F54748] font-bold">Chiken Tikka</span></h3>
+          <p class="text-center px-7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <button class="bg-[#F54748] hover:bg-[#FDC55E] mx-auto mt-7 text-white text-sm rounded-full p-1 w-[110px]">
+            Order Now </button>
+        </div>
+        <!-- ------------------------------3--------------------- -->
+        <div
+          class="card flex flex-col justify-center-center w-[230px] bg-[url('../public/assets/bg-card.png')] rounded-b-[20px] bg-cover h-[400px] gap-1 ">
+          <img src="../public/assets/desi.png" alt="">
+
+          <img class="w-[100px] h-[30px] mx-auto " src="../public/assets/compil-3.png" alt="">
+
+          <h3 class="text-center text-sm"><span class="text-[#F54748] font-bold">Desi Chowmein</span></h3>
+          <p class="text-center px-7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <button class="bg-[#F54748] hover:bg-[#FDC55E] mx-auto mt-7 text-white text-sm rounded-full p-1 w-[110px]">
+            Order Now </button>
+        </div>
+        <!-- ------------------------------4--------------------- -->
+        <div
+          class="card flex flex-col justify-center-center w-[230px] bg-[url('../public/assets/bg-card.png')]   rounded-b-[20px] bg-cover h-[400px] gap-1">
+          <img src="../public/assets/chiken-chargha.png" alt="">
+
+          <img class="w-[100px] h-[30px] mx-auto " src="../public/assets/compil-4.png" alt="">
+
+          <h3 class="text-center text-sm"><span class="text-[#F54748] font-bold">Kebab</span></h3>
+          <p class="text-center px-7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <button class="bg-[#F54748] hover:bg-[#FDC55E] mx-auto mt-7 text-white text-sm rounded-full p-1 w-[110px]">
+            Order Now </button>
+        </div>
+        <!-- --------------------------- -->
+
+      </section>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- -------------------section with appstore and google play------------------------ -->
+    <section
+      class=" bg-[url('../public/assets/ls_bg.png')] bg-cover w-full grid grid-cols-1  md:grid-cols-2 mt-20 ">
+      <div class="text-center p-10 md:p-0 md:text-left flex justify-center flex-col gap-10">
+
+
+        <h1 class="text-3xl text-left md:text-left md:text-5xl md:font-bold">
+          It's Now <span class="text-[#F54748]">More Easy</span> To
+          <span class="text-[#FDC55E]">Order</span> By Our Mobile
+          <span class="text-[#F54748]">Appy</span>
+        </h1>
+        <p>
+          All you need to do is downlode one of the best delivery apps, make a and most companies are opting for mobile
+          app devlopment for food delivery
+        </p>
+
+        <div class="flex gap-3 justify-start items-center">
+          <button class="rounded w-[100px]">
+            <img class="w-full" src="../public/assets/google_play_btn.png" alt="">
+          </button>
+          <button class="rounded w-[100px]">
+            <img class="w-full" src="../public/assets/app_store.png" alt="">
+          </button>
+        </div>
+      </div>
+
+
+
+      <div class="relative w-full  ">
+        <img class="object-contain w-[500px] h-[500px] mx-auto  " src="../public/assets/last_chef.png"
+          alt="hero image" />
+      </div>
+    </section>
+
+
+    <footer class="px-[50px] md:px-[0px]">
+      <section class=" md:justify-center mt-20 flex flex-wrap gap-30">
+
+          <div class="text-left">
+            <h3 class="text-[#F54748] font-bold text-xl mb-4">Food Hut</h3>
+            <p class="w-[200px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, sint?</p>
+            <img class="w-[90px] mt-[20px]" src="../public/assets/tiro_logo.png" alt="">
+          </div>
+          <div>
+            <h3 class="text-[#F54748] font-bold text-xl mb-4">About US</h3>
+            <ul class="flex flex-col gap-4">
+              <li>About Us</li>
+              <li>Service Us</li>
+              <li>Contact</li>
+              <li>Company</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-[#F54748] font-bold text-xl mb-4">Company</h3>
+            <ul class="flex flex-col gap-4">
+              <li>Partnership</li>
+              <li>Terms of Use</li>
+              <li>Privacy</li>
+              <li>Sitemap</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-[#F54748] font-bold text-xl mb-4">Get in touch</h3>
+            <p class="w-[200px]">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            
+       
+            <input type="text" class="rounded-4xl border p-2 mt-5 bg-[#f1f1f1] text-[#757575]" placeholder="Email" />
+          
+            <button class="bg-[#F54748] md:mt-[0px] mt-[10px] hover:bg-[#FDC55E] text-white text-sm rounded-full p-2 w-[100px]">
+              Subscribe
+            </button>
+
+          </div>
+      </section>
+      <span class="block text-center mt-20">Copyright &copy; 2022 Foodhut.</span>
+    </footer>
+
+
+  </main>
+   
+</body>
+
+</html>
